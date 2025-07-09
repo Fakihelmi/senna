@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senna Premium Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-pink-100 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-pink-500">🌸 Senna's Store</h1>
+      <!-- NOMOR BARU -->
+      <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20pesan%20app%20premium%20nih"
+         target="_blank"
+         class="bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600">Chat Sekarang</a>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-10 px-4">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600">
+        Premium Service Store 💜
+      </h2>
+      <p class="mt-2 text-gray-600">
+        Layanan berlangganan aplikasi premium dengan harga terjangkau dan kualitas terpercaya
+      </p>
+      <div class="flex flex-wrap justify-center gap-3 mt-6">
+        <span class="px-4 py-2 rounded-full bg-white shadow text-sm">⚡ Aktivasi Cepat</span>
+        <span class="px-4 py-2 rounded-full bg-white shadow text-sm">🔒 Aman & Terpercaya</span>
+        <span class="px-4 py-2 rounded-full bg-white shadow text-sm">💎 Harga Terjangkau</span>
+        <span class="px-4 py-2 rounded-full bg-white shadow text-sm">🌞 Kualitas Premium</span>
+      </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <div class="flex justify-center gap-4 mb-6 flex-wrap px-4">
+      <button class="filter-btn bg-gradient-to-r from-pink-400 to-purple-500 text-white px-4 py-2 rounded-full" data-category="all">🌈 Semua</button>
+      <button class="filter-btn bg-white shadow px-4 py-2 rounded-full" data-category="streaming">🎥 Streaming</button>
+      <button class="filter-btn bg-white shadow px-4 py-2 rounded-full" data-category="design">🎨 Design</button>
+      <button class="filter-btn bg-white shadow px-4 py-2 rounded-full" data-category="social">📱 Social</button>
+    </div>
+
+    <!-- Product Cards -->
+    <section id="product-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-4 sm:px-8 pb-10">
+      
+      <!-- Netflix -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">Netflix</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">1P1U</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>3 hari - Rp 10.000</li>
+              <li>5 hari - Rp 12.000</li>
+              <li>7 hari - Rp 15.000</li>
+              <li>1 bulan - Rp 38.000</li>
+              <li>3 bulan - Rp 110.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">1P2U</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 25.000</li>
+              <li>3 bulan - Rp 75.000</li>
+            </ul>
+          </div>
+          <p><span class="font-semibold text-pink-600">Semi Private:</span> 1 bulan - Rp 46.000</p>
+          <p><span class="font-semibold text-pink-600">Private:</span> 1 bulan - Rp 150.000</p>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20Netflix%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- Disney+ -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">Disney+</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">Premium (Monthly)</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>6 user - Rp 33.000</li>
+              <li>5 user - Rp 37.000</li>
+              <li>4 user - Rp 44.000</li>
+              <li>3 user - Rp 55.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">Basic (Monthly)</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>2 user - Rp 46.000</li>
+              <li>3 user - Rp 35.000</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20Disney%2B%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+      
+      <!-- HBO GO -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">HBO GO</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">Sharing</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 25.000</li>
+              <li>3 bulan - Rp 75.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">Private</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 65.000</li>
+              <li>3 bulan - Rp 170.000</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20HBO%20GO%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- YouTube -->
+      <div class="category-social bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">YouTube</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">FamPlan</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 10.000</li>
+              <li>2 bulan - Rp 15.000</li>
+              <li class="italic text-xs">email seller +3k</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">IndPlan</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 18.000</li>
+              <li>3 bulan - Rp 55.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">MixPlan</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>3 bulan - Rp 35.000</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20YouTube%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+      
+      <!-- Vidio -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">Vidio</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">Platinum Sharing</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>4u 18.000 / bln</li>
+              <li>2u 26.000 / bln</li>
+            </ul>
+          </div>
+          <p><span class="font-semibold text-pink-600">Platinum Private:</span> 1 bulan 40.000</p>
+          <p><span class="font-semibold text-pink-600">Diamond Sharing:</span> 2u 68.000 / bln</p>
+          <p><span class="font-semibold text-pink-600">Diamond Private:</span> 1 bulan 125.000</p>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20Vidio%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- VIU -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">VIU</h3>
+        <div class="flex-grow space-y-2 text-sm">
+          <div>
+            <p class="font-semibold text-pink-600">Private</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 10.000</li>
+              <li>3 bulan - Rp 15.000</li>
+              <li>6 bulan - Rp 20.000</li>
+              <li>1 tahun - Rp 25.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">Private Anti Limit</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 12.000</li>
+              <li>3 bulan - Rp 18.000</li>
+              <li>6 bulan - Rp 24.000</li>
+              <li>1 tahun - Rp 30.000</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-semibold text-pink-600">Premium+</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>Sharing (anti-limit): 1 bln 16k, 6 bln 50k</li>
+              <li>Private: 1 bulan 55k</li>
+            </ul>
+          </div>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20VIU%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- Canva -->
+      <div class="category-design bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">Canva</h3>
+        <div class="flex-grow space-y-2 text-sm">
+            <p class="font-semibold text-pink-600">Designer</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 10.000</li>
+              <li class="italic text-xs">Garansi 6 Bulan</li>
+            </ul>
+            <p class="font-semibold text-pink-600">Lifetime/Edu</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>Lifetime - Rp 35.000</li>
+            </ul>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20Canva%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- Youku -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">Youku</h3>
+        <div class="flex-grow space-y-2 text-sm">
+            <p class="font-semibold text-pink-600">Sharing</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 15.000</li>
+              <li>3 bulan - Rp 33.000</li>
+            </ul>
+            <p class="font-semibold text-pink-600">Private</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 40.000</li>
+            </ul>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20Youku%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- BStation -->
+      <div class="category-streaming bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">BStation</h3>
+        <div class="flex-grow space-y-2 text-sm">
+            <p class="font-semibold text-pink-600">Sharing</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 12.000</li>
+              <li>3 bulan - Rp 25.000</li>
+            </ul>
+            <p class="font-semibold text-pink-600">Private</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>1 bulan - Rp 40.000</li>
+            </ul>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20BStation%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- CapCut -->
+      <div class="category-design bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">CapCut</h3>
+        <div class="flex-grow space-y-2 text-sm">
+            <p class="font-semibold text-pink-600">Sharing</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>5 user 25.000/bln</li>
+            </ul>
+            <p class="font-semibold text-pink-600">Private</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>75.000/bln</li>
+            </ul>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20CapCut%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+      <!-- DazzCam -->
+      <div class="category-design bg-white p-4 rounded-xl shadow transition transform hover:scale-105 active:scale-95 flex flex-col">
+        <h3 class="text-lg font-bold text-gray-800 mb-1">DazzCam</h3>
+        <div class="flex-grow space-y-2 text-sm">
+            <p class="font-semibold text-pink-600">Lifetime</p>
+            <ul class="text-gray-700 space-y-1">
+              <li>Rp 25.000</li>
+            </ul>
+        </div>
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20order%20DazzCam%20nih" target="_blank" class="mt-4 block text-center bg-gradient-to-r from-pink-500 to-purple-500 w-full py-2 text-white rounded-full">💬 Pesan Sekarang</a>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-10 text-sm text-gray-600 border-t mt-10">
+      <h3 class="text-lg font-bold text-pink-500 mb-3">💖 Terima kasih telah mempercayai Senna's Store!</h3>
+      <p class="mb-1">Kami telah hadir sejak <strong>2017</strong> dan dipercaya oleh lebih dari <strong>350+ reseller</strong>.</p>
+      <p class="mb-4 italic text-gray-500">"Senna Store, pilihan cantik dan cerdas untuk layanan premium kamu 💅✨"</p>
+      <div class="flex justify-center gap-6 mt-4">
+        <!-- NOMOR BARU -->
+        <a href="https://wa.me/6281410097203?text=Halo%20kak%2C%20saya%20mau%20pesan%20app%20premium%20nih" target="_blank" class="flex items-center gap-2 text-pink-500 hover:underline">
+          <img src="https://img.icons8.com/ios-filled/24/25D366/whatsapp.png" class="w-5 h-5" alt="WhatsApp" /> WhatsApp
+        </a>
+        <a href="https://instagram.com/" target="_blank" class="flex items-center gap-2 text-pink-500 hover:underline">
+          <img src="https://img.icons8.com/ios-filled/24/E1306C/instagram-new.png" class="w-5 h-5" alt="Instagram" /> Instagram
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="flex items-center gap-2 text-pink-500 hover:underline">
+          <img src="https://img.icons8.com/ios-filled/24/1DA1F2/twitter--v1.png" class="w-5 h-5" alt="Twitter" /> Twitter
+        </a>
+      </div>
+    </footer>
+
+    <!-- Script Filter (optional) -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll(".filter-btn");
+        const cards = document.querySelectorAll("#product-list > div");
+
+        buttons.forEach(btn => {
+          btn.addEventListener("click", () => {
+            // --- Fitur Tombol Aktif ---
+            // 1. Set semua tombol ke style tidak aktif
+            buttons.forEach(button => {
+              button.classList.remove('bg-gradient-to-r', 'from-pink-400', 'to-purple-500', 'text-white');
+              button.classList.add('bg-white', 'shadow');
+            });
+            
+            // 2. Set tombol yang diklik ke style aktif
+            btn.classList.add('bg-gradient-to-r', 'from-pink-400', 'to-purple-500', 'text-white');
+            btn.classList.remove('bg-white', 'shadow');
+
+            // --- Fitur Filter Kartu ---
+            const category = btn.getAttribute("data-category");
+            cards.forEach(card => {
+              if (category === "all") {
+                card.classList.remove("hidden");
+              } else {
+                card.classList.toggle("hidden", !card.classList.contains(`category-${category}`));
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
